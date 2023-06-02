@@ -29,6 +29,9 @@ img:hover {
 #lista-fav {
     list-style-image: url(corazon.png);
 }
+#lista-no-fav{
+    padding-inline-end: 20px;    
+}
 
 #titulo1:hover {
     background-color: violet;
