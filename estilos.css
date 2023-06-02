@@ -1,8 +1,3 @@
-h1,h2,h3,h4 {
-    text-align: center;
-    font-family: fantasy;
-}
-
 
 img {
     width: 300px;
@@ -13,7 +8,11 @@ img {
 #titulo1 {
     background-color: #d9ad26 ;
     border: 5px solid #bf930d;
+}
+
+h1,h2,h3,h4 {
     text-align: center;
+    font-family: fantasy;
 }
 
 ul {
