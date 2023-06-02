@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de envio</title>
+    <link rel="stylesheet" href="estilos-formulario.css">
+
+
+</head>
+
+
+
+<body>
+    <style>
+        form {
+            border: 2px;
+            padding: 150px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+    </style>
+
+    <form action="JS/ejemplo.js" method="post">
+        <fieldset>
+            <h1>¡Gracias por realizar tu compra!</h1>
+            <h3>Requerimos los siguientes datos para realizar el envio</h3>
+            <br>
+            <label class="texto">
+                Nombre de quien recibirá el paquete
+                <input type="text" placeholder=" Nombre  Apellido ">
+            </label>
+            <br>
+            <label class="texto">
+                Teléfono
+                <input type="tel" placeholder="+52 55 55 55 55 55">
+            </label>
+            <br>
+            
+            <label class="texto">
+                Fecha para agendar la entrega del pedido
+                <input type="date">
+            </label>
+            <br>
+            <label>
+                Horario
+                <select>
+        
+                    <option selected>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Tarde noche</option>
+                    
+                </select>
+            </label>
+            <br>
+            <label class="texto">
+                Dirección
+                <input type="text">
+            </label>
+            <br>
+            <label class="texto">
+                Correo electrónico
+                <input type="email" placeholder="usuario@ejemplo.com">
+            </label>
+            <br>
+            <label class="texto">
+                Indicaciones extra
+                <textarea name="" id="" cols="40" rows="3"></textarea>
+            </label>
+            <br>
+            <label for="terminos" class="texto">
+                Usted acepta los terminos y condiciones de nuestra política de privacidad
+                <input type="checkbox" value="" id="terminos">
+            </label>
+            <br>
+            
+
+
+            <input type="submit" value="Enviar">
+            
+            <input type="reset" value="Cancelar compra">
+            
+
+            
+            
+        </fieldset>
+    </form>
+    
+    
+
+
+</body>
+</html>
