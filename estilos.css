@@ -22,8 +22,12 @@ img:hover {
     height: 450px;
 } 
 
-ul {
+#lista-cursor {
     list-style-image: url(icon.png);
+}
+
+#lista-fav {
+    list-style-image: url(corazon.png);
 }
 
 #titulo1:hover {
