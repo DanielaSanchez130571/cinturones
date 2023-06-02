@@ -52,12 +52,12 @@ body {
 
 table {
     text-align: center;
-    border: 5px solid #bf930d;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 32%;
     border-spacing: 10px;
+}
+
+th, td {
+    border: 5px solid  #bf930d;
 }
 
 
